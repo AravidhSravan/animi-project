@@ -1,0 +1,38 @@
+h2{
+    background-color: #eb7c69;
+    color: ghostwhite;
+    border-left: 0px;
+    border-top: 0px;
+    margin-left: -60px;
+    margin-top: -10px;
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+.dropdown{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 2px;
+}
+input,select{
+    height: 60px;
+    width: 380px;
+    border-color: #eb7c69;
+    border-radius: 2px;
+    background-color: #1f1b2d;
+    color: ghostwhite;
+}
+button{
+    background-color: #eb7c69;
+    height: 60px;
+    width: 100px;
+}
+body{
+    margin-left: 40px;
+    background-color: #1f1b2d;
+}
+label{
+    color: ghostwhite;
+}

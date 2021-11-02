@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animi-Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="scrpit.js"></script>
+</head>
+<body>
+    <h2>ANIMI-FORMS</h2>
+    <div>
+        <div style="float: left;">
+            <form name="form" onsubmit="return validateForm()">
+                <label for="name">ANIMI-Name</label>
+                <br><input type="text" id="name"><br><br><br>
+                <label for="country">ANIMI-(ORIGIN-COINTRY)</label><br>
+                <select name="dropdown" name="country" id="country">
+                    <option>India</option>
+                    <option>South Africa</option>
+                    <option>Pakisthan</option>
+                    <option value="Aruba">Aruba</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                </select><br><br><br>
+                <label for="episode">No.of.Episodes</label><br>
+                <input type="number" id="episode"><br><br><br>
+                <label for="rating">YOUR RATING</label><br>
+                <input type="text" id="rating"><br><br><br>
+                <label for="award">AWARDS</label><br>
+                <input type="text" id="award">
+        </div>
+        <div style="float: right; margin-right: 100px;">
+                <label for="about">DESCRIPTION ABOUT THE ANIMI</label><br>
+                <input type="text" id="about">
+                <br><br><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
